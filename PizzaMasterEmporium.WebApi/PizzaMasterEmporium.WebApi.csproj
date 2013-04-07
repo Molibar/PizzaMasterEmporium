@@ -131,14 +131,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\Copy of ValuesController.cs" />
+    <Compile Include="Controllers\OrderService.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="IoC\IoCForWebApi.cs" />
-    <Compile Include="IoC\WebRegistry.cs" />
+    <Compile Include="IoC\WebApiRegistry.cs" />
+    <Compile Include="OrderContext\ViewModels\OrderViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -247,6 +248,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PizzaMasterEmporium.Data\PizzaMasterEmporium.Data.csproj">
+      <Project>{EEE8F86A-81C6-407C-9D25-27AC6A04BEF7}</Project>
+      <Name>PizzaMasterEmporium.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PizzaMasterEmporium.Domain\PizzaMasterEmporium.Domain.csproj">
+      <Project>{7AB5A4E9-30C2-405A-BE36-E073394CED44}</Project>
+      <Name>PizzaMasterEmporium.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PizzaMasterEmporium.Framework\PizzaMasterEmporium.Framework.csproj">
+      <Project>{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB}</Project>
+      <Name>PizzaMasterEmporium.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

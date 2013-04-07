@@ -125,7 +125,6 @@
     <Compile Include="IoC\StructureMap\WcfServices\StructureMapInstanceProvider.cs" />
     <Compile Include="IoC\StructureMap\WcfServices\StructureMapServiceBehavior.cs" />
     <Compile Include="IoC\StructureMap\WcfServices\StructureMapServiceHost.cs" />
-    <Compile Include="IoC\StructureMap\Web\DefaultRegistry.cs" />
     <Compile Include="IoC\StructureMap\Web\HttpContextCache.cs" />
     <Compile Include="IoC\StructureMap\Web\InjectableFilterProvider.cs" />
     <Compile Include="IoC\StructureMap\Web\StructureMapDependencyResolver.cs" />

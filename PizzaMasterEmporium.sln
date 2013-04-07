@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Framewo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Framework.Tests", "PizzaMasterEmporium.Framework.Tests\PizzaMasterEmporium.Framework.Tests.csproj", "{0A943348-CEA7-4353-A985-FE139B6772F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Domain", "PizzaMasterEmporium.Domain\PizzaMasterEmporium.Domain.csproj", "{7AB5A4E9-30C2-405A-BE36-E073394CED44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{0A943348-CEA7-4353-A985-FE139B6772F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A943348-CEA7-4353-A985-FE139B6772F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A943348-CEA7-4353-A985-FE139B6772F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AB5A4E9-30C2-405A-BE36-E073394CED44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AB5A4E9-30C2-405A-BE36-E073394CED44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AB5A4E9-30C2-405A-BE36-E073394CED44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AB5A4E9-30C2-405A-BE36-E073394CED44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

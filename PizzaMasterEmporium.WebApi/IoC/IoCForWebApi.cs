@@ -7,7 +7,7 @@ namespace PizzaMasterEmporium.WebApi.IoC
     {
         public IContainer Initialize()
         {
-            ObjectFactory.Configure(cfg => cfg.AddRegistry<WebRegistry>());
+            ObjectFactory.Configure(cfg => cfg.AddRegistry<WebApiRegistry>());
 
             var configuration = ObjectFactory.GetInstance<IConfiguration>();
             foreach (var profile in ObjectFactory.GetAllInstances<Profile>())

@@ -5,23 +5,6 @@
         public string Id { get; set; }
         public Size Size { get; set; }
         public Ingredient[] Ingredients { get; set; }
-
-
-
-        public bool Store()
-        {
-            return false;
-        }
-
-        public bool Update()
-        {
-            return false;
-        }
-
-        public bool Delete()
-        {
-            return false;
-        }
     }
 
     public class Size

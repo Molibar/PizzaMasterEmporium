@@ -1,14 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using PizzaMasterEmporium.WebApi.OrderContext.ViewModels;
 
 namespace PizzaMasterEmporium.WebApi.Controllers
 {
     public class OrderService : ApiController
     {
         // GET api/values
-        public IEnumerable<string> Get()
+        public IEnumerable<OrderViewModel> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new [] { new OrderViewModel(), new OrderViewModel() };
         }
 
         // GET api/values/5

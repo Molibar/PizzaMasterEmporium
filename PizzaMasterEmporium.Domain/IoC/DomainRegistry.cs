@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using StructureMap.Configuration.DSL;
 
-namespace PizzaMasterEmporium.WebApi.IoC
+namespace PizzaMasterEmporium.Domain.IoC
 {
-    public class WebRegistry : Registry
+    public class DomainRegistry : Registry
     {
-        public WebRegistry()
+        public DomainRegistry()
         {
             Scan(scan =>
             {
