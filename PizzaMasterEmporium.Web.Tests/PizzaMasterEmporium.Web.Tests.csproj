@@ -121,7 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PizzaMasterEmporium.Web\PizzaMasterEmporium.Web.csproj">
-      <Project>{4A723235-0DCA-4B29-A1E5-ACACDFFC3532}</Project>
+      <Project>{4a723235-0dca-4b29-a1e5-acacdffc3532}</Project>
       <Name>PizzaMasterEmporium.Web</Name>
     </ProjectReference>
   </ItemGroup>
