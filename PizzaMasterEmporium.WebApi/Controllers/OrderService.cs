@@ -13,9 +13,9 @@ namespace PizzaMasterEmporium.WebApi.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public OrderViewModel Get(int id)
         {
-            return "value";
+            return new OrderViewModel();
         }
 
         // POST api/values
