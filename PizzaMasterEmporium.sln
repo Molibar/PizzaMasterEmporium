@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.WebApi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Data", "PizzaMasterEmporium.Data\PizzaMasterEmporium.Data.csproj", "{EEE8F86A-81C6-407C-9D25-27AC6A04BEF7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{E7C74A3A-CAAD-46FA-A2EE-52470FFE7C0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Messaging", "PizzaMasterEmporium.Messaging\PizzaMasterEmporium.Messaging.csproj", "{1EC80AE3-7F86-4A9D-B38A-3825AB528481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{2B338917-AE7C-41F0-A81F-C4A440A6EFDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Framework", "PizzaMasterEmporium.Framework\PizzaMasterEmporium.Framework.csproj", "{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMasterEmporium.Framework.Tests", "PizzaMasterEmporium.Framework.Tests\PizzaMasterEmporium.Framework.Tests.csproj", "{0A943348-CEA7-4353-A985-FE139B6772F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,18 @@ Global
 		{EEE8F86A-81C6-407C-9D25-27AC6A04BEF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE8F86A-81C6-407C-9D25-27AC6A04BEF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE8F86A-81C6-407C-9D25-27AC6A04BEF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC80AE3-7F86-4A9D-B38A-3825AB528481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC80AE3-7F86-4A9D-B38A-3825AB528481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC80AE3-7F86-4A9D-B38A-3825AB528481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC80AE3-7F86-4A9D-B38A-3825AB528481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A943348-CEA7-4353-A985-FE139B6772F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A943348-CEA7-4353-A985-FE139B6772F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A943348-CEA7-4353-A985-FE139B6772F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A943348-CEA7-4353-A985-FE139B6772F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +68,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{736D0CEF-9990-42FB-ADC6-CEDF4FCFB6EA} = {954DB65B-A68A-4897-80BD-A77F3ED7E67A}
 		{AEDFDE7D-50EF-4384-ADE3-57AF2F266589} = {954DB65B-A68A-4897-80BD-A77F3ED7E67A}
+		{1EC80AE3-7F86-4A9D-B38A-3825AB528481} = {E7C74A3A-CAAD-46FA-A2EE-52470FFE7C0A}
+		{EBE9656E-74EC-4CD8-907B-9F3DB2E862BB} = {2B338917-AE7C-41F0-A81F-C4A440A6EFDE}
+		{0A943348-CEA7-4353-A985-FE139B6772F8} = {2B338917-AE7C-41F0-A81F-C4A440A6EFDE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal

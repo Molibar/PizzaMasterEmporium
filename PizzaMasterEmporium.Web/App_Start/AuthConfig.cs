@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Web.WebPages.OAuth;
-using PizzaMasterEmporium.Web.Models;
-
-namespace PizzaMasterEmporium.Web
+﻿namespace PizzaMasterEmporium.Web.App_Start
 {
     public static class AuthConfig
     {

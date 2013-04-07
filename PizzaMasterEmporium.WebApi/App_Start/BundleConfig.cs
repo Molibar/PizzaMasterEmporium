@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace PizzaMasterEmporium.WebApi
+namespace PizzaMasterEmporium.WebApi.App_Start
 {
     public class BundleConfig
     {

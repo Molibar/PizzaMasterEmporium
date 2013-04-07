@@ -1,11 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using AutoMapper;
+using StructureMap.Configuration.DSL;
 
 namespace PizzaMasterEmporium.Web.IoC
 {
-    public class WebRegistry
+    public class WebRegistry : Registry
     {
+        public WebRegistry()
+        {
+            Scan(scan =>
+            {
+                scan.AddAllTypesOf<Profile>();
+                scan.TheCallingAssembly();
+                scan.WithDefaultConventions();
+            });
+        }
     }
 }
