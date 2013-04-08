@@ -151,7 +151,10 @@
     <Compile Include="Utils\StringArrayUtils.cs" />
     <Compile Include="Utils\StringListUtils.cs" />
     <Compile Include="Utils\StringUtils.cs" />
+    <Compile Include="Web\ActionFilters\EnableCorsAttribute.cs" />
+    <Compile Include="Web\ActionFilters\RequestStatusAttribute.cs" />
     <Compile Include="Web\Mvc\JsonpResult.cs" />
+    <Compile Include="Web\Tracking\RequestStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
